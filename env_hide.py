@@ -58,5 +58,6 @@ def pwsh_obfuscate(string):
 
 	return f'& {iex_stage} {payload_stage}'
 
-powershell_command = 'Write-Output 420'
+#Make sure to change this command to your desired command
+powershell_command = 'Write-Output Hidden'
 print(pwsh_obfuscate(powershell_command))	
