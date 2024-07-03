@@ -60,12 +60,3 @@ def pwsh_obfuscate(string):
 
 powershell_command = 'Write-Output 420'
 print(pwsh_obfuscate(powershell_command))	
-	
-	# current_username = os.getenv('USERNAME')
-	
-	# for each_var in env_vars:
-	# 	value = os.getenv(each_var)
-	# 	if current_username in value:
-	# 		continue)
-# 	if value:
-# 		print(f"{each_var} = {value}")
